@@ -1,0 +1,3 @@
+use this in auth header
+
+admin:admin
