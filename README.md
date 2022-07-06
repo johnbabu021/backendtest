@@ -9,6 +9,10 @@
 
 To start
 
+create a .env file
+add your atlas connection address
+as MNGD="CONNECTION_ADDRESS"
+
 ```
 npm install
 ```

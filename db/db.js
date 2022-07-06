@@ -1,7 +1,8 @@
 const { MongoClient } = require('mongodb');
 const { movieSchema } = require('../models/movieschema');
+require("dotenv").config();
 
-const url = 'mongodb://localhost:27017';
+const url =process.env.MNGD;
 const client = new MongoClient(url);
 
 const db = client.db('backendtest');
