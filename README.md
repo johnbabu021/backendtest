@@ -19,3 +19,5 @@ npm install
 ```
 npm start
 ```
+https://backedndtest.herokuapp.com/api/movies/    --get
+https://backedndtest.herokuapp.com/api/movies/id    -put delete
