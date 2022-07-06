@@ -1,7 +1,7 @@
 const {db} =require('../db/db')
 
- const movieSchema=()=>{
-    db.createCollection('movie',{
+ const movieSchema=async()=>{
+   await db?.createCollection('movie',{
         validator:{
             $jsonSchema:{
                 bsonType:'object',

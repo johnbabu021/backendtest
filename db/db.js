@@ -1,4 +1,5 @@
 const { MongoClient } = require('mongodb');
+const { movieSchema } = require('../models/movieschema');
 
 const url = 'mongodb://localhost:27017';
 const client = new MongoClient(url);
@@ -10,17 +11,7 @@ async function connect(){
       await  client.connect()
         console.log('connected succesfully')
 
-        db.listCollections({name: 'movie'})
-    .next(function(err, collinfo) {
-        console.log(collinfo)
-       if(!collinfo){
-        console.log('exists')
-        movieSchema()
-       }
-       else{
-        console.log('not exist')
-       }
-    });
+        
     }
     catch(e){
         console.log(e)
