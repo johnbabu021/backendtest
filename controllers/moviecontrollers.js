@@ -15,7 +15,7 @@ const addMovies=async(req,res)=>{
         genere:req.body.genere,
         releasedate:req.body.releasedate
     })
-    res.status(200).json(resultedData.insertedId)
+    res.status(200).json(resultedData?.insertedId)
 
 }
 
