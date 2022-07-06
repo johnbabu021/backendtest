@@ -1,7 +1,16 @@
 ### this is only a demonstration
 
 
-| API                  |      Are      | 
-|----------------------|:-------------:|
-| /api/movies          |  GET,POST     | 
-| /api/movies/:movieId |  PUT,DELTE    |  
+| API                  |      Are      |  Details    |
+|----------------------|:-------------:|------------:|
+| /api/movies          |  GET,POST     | movieroutes |
+| /api/movies/:movieId |  PUT,DELTE    | movieroutes |
+
+To start
+
+```
+npm install
+```
+```
+npm start
+```
