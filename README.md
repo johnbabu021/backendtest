@@ -24,3 +24,8 @@ npm start
 https://backedndtest.herokuapp.com/api/movies/    --get,put
 <br/>
 https://backedndtest.herokuapp.com/api/movies/id    -put delete
+
+require atuhorization
+
+<br/>
+see login.txt
